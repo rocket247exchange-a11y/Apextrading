@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Testimonials Carousel — Untitled</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="frame-wrap">
+    <div class="frame">
+      <header class="frame-header">
+        <h2>Testimonials</h2>
+      </header>
+
+      <div class="carousel-wrap" aria-label="feedback carousel">
+        <button class="carousel-btn prev" aria-label="Previous testimonial">&larr;</button>
+
+        <div class="carousel" id="carousel" tabindex="0" role="region" aria-roledescription="carousel">
+          <ul class="carousel-track">
+            <li class="card">
+              <blockquote>
+                <p>"This product changed my life — professional, quick, and friendly."</p>
+                <footer>— Ade, Lagos</footer>
+              </blockquote>
+            </li>
+
+            <li class="card">
+              <blockquote>
+                <p>"Amazing experience from start to finish. Highly recommend."</p>
+                <footer>— Chioma, Abuja</footer>
+              </blockquote>
+            </li>
+
+            <li class="card">
+              <blockquote>
+                <p>"The team was responsive and the results were outstanding."</p>
+                <footer>— Musa, Ibadan</footer>
+              </blockquote>
+            </li>
+
+            <li class="card">
+              <blockquote>
+                <p>"A top-notch service. Professional and timely." </p>
+                <footer>— Funmi, Port Harcourt</footer>
+              </blockquote>
+            </li>
+          </ul>
+        </div>
+
+        <button class="carousel-btn next" aria-label="Next testimonial">&rarr;</button>
+      </div>
+
+      <div class="carousel-dots" id="dots" aria-hidden="false"></div>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
